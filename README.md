@@ -1,4 +1,8 @@
-# IrisAid
+# IrisAid: Multi-modal, Low-Effort Reading Accessibility for Mobile Devices
+
+## Abstract
+
+Mobile devices’ small screens and dense interface elements create significant barriers for users with visual or motor impairments. Built-in magnification and accessibility tools often require precise gestures or complex navigation, which can be difficult for users with limited dexterity or tremors. This makes reading on smartphones a frustrating and inefficient task for many. To address this, IrisAid introduces a multi-modal mobile reading accessibility tool that supports flexible, low-effort interaction. The system combines multiple reading assistance modes, including physical button-based zoom, voice commands, face-distance–based magnification, and hand-gesture–based navigation using landmark detection. These modes enable users to adjust text size and navigate content with minimal reliance on precise touch gestures. A functional Android prototype demonstrates the feasibility of integrating these interaction modes into a unified reading aid. A heuristic usability evaluation is planned to examine learnability, efficiency, and user satisfaction compared to standard mobile accessibility tools. The findings aim to guide the design of adaptive and inclusive mobile reading interfaces.
 
 ## Project Structure
 
