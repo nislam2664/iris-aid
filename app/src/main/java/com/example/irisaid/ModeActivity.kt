@@ -65,7 +65,6 @@ class ModeActivity : ComponentActivity(), HandLandmarkerHelper.LandmarkerListene
     private var minTextSize = 10f                                               // minimum text size
     private var maxTextSize = 60f                                               // maximum text size
     private var currentTextSize = 20f                                           // default text size
-    private val leapFactor = 0.3f                                               // text size change leap factor
     private val smoothingFactor = 0.1                                           // lower = more stable, less sensitive
     private val maxDeltaPerFrame = 3f                                           // max text size change per frame
     private val pinchThreshold = 0.5f                                           // fingers must be closer than this to trigger zoom
@@ -432,9 +431,9 @@ class ModeActivity : ComponentActivity(), HandLandmarkerHelper.LandmarkerListene
                 startMediaPlayer()
             }
             "🟡 Voice Command" -> {
+                stopMediaPlayer()
+                stopCameraAndDetection()
                 if (allPermissionsGranted()) {
-                    stopMediaPlayer()
-                    stopCameraAndDetection()
                     cameraFrame.visibility = View.GONE
                     playButton.visibility = View.GONE
                     voiceButton.visibility = View.VISIBLE
