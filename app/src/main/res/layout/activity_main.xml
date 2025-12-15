@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ethereal_background"
+        android:alpha="0.85"/>
+
+    <Spinner
+        android:id="@+id/modeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_background"/>
+
+    <LinearLayout
+        android:id="@+id/bookContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/modeSpinner"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/book1"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/book1_cover"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:background="@drawable/book_rounded_corners"
+            android:clipToOutline="true"/>
+
+        <ImageView
+            android:id="@+id/book2"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/book2_cover"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:background="@drawable/book_rounded_corners"
+            android:clipToOutline="true"/>
+
+        <ImageView
+            android:id="@+id/book3"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/book3_cover"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:background="@drawable/book_rounded_corners"
+            android:clipToOutline="true"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/instructionCard"
+        android:layout_centerHorizontal="true"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#FFF9EB"
+        android:layout_below="@id/bookContainer">
+
+        <TextView
+            android:id="@+id/instructionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:lineSpacingExtra="1dp"
+            android:fontFamily="sans-serif" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IrisAid</string>
+    <string name="test_instructions">📖 Instructions: Select a zoom mode you wish to use and test it on any of the books provided above.
+    \n\n🔴 Button + Swipe:
+    \n\t\t- Press the volume up or volume down button to adjust zoom
+    \n\t\t- Swipe left or right to change pages as usual
+    \n\n🟡 Voice Command:
+    \n\t\tUse the following key words:
+    \n\t\t\t\t- Zoom in [(optional) num | max]
+    \n\t\t\t\t- Zoom out [(optional) num | max]
+    \n\t\t\t\t- Go to page [num]
+    \n\t\t\t\t- First page
+    \n\t\t\t\t- Last page
+    \n\n🟢 Hand Gesture:
+    \n\t\t- Pinch your index and thumb to zoom
+    \n\t\t- Put your index and middle together and swipe left or right to change pages
+    \n\n🔵 Face Distance:
+    \n\t\t- Move your face close to zoom out
+    \n\t\t- Move your face out to zoom in
+    \n\t\t- Turn your head left or right to change pages
+    </string>
+    <string name="book1_excerpt">Klein focused his gaze and saw that he was wearing a black top hat. His outline stood out and his facial features looked normal. Apart from having his face covered in sweat, he did not seem different in any way. \n\nHe followed Old Neil’s instruction and carefully looked at his eyes. Only then did he discover that his brown eyes had deepened quite significantly. It was so much deepened that it was like the night—one in complete darkness. It felt so deep that it could absorb the souls of others. \n\nNormally, dark brown pupils are easily recognized as black. Without looking very carefully, even Klein himself would not have noticed. \n\n\“This is a physical manifestation of the potion\’s powers. When you learn Cogitation and how to converge your power, your eyes will return to normal.\” Old Neil smiled as he reached out his right hand. \“Congratulations, our new Beyonder, our Seer.\” </string>
+    <string name="book2_excerpt">It started ages ago, a thousand centuries ago, but let\'s skip all those yesterdays and begin last Tuesday. It is a day you wake up hungover and empty of thought, which is true of most days. You wake up in an endless waiting room. You look around and it\'s a dream and, for once, you know it\'s a dream and you\'re happy to wait it out. All things pass, especially dreams. \n\nYou are wearing a safari jacket and faded jeans and cannot remember how you got here. You wear one shoe and have three chains and a camera around your neck. The camera is your trusty Nikon 3ST, though its lens is smashed and its casing is cracked. You look through the viewfinder and all you see is mud. Time to wake up, Maali boy. You pinch yourself and it hurts, less like a short stab and more like the hollow ache of an insult. </string>
+    <string name="book3_excerpt">The night sky shimmered like a woven tapestry, each star pulsing with quiet power. Clarion stepped onto the cliff\’s edge, the wind brushing her cloak as if urging her forward. \n\nFor a moment, everything was still. Then the mark on her shoulder glowed. Soft at first, then bright enough to paint the stones in silver. \n\nFeathers of light unfurled behind her, forming wings that hummed like distant constellations in motion. \n\nShe lifted her gaze. \n\nSomewhere above, beyond the veil of glittering darkness, her destiny waited—ancient, patient, and finally awake.</string>
+    <string name="music">🎶 Play</string>
+    <string name="page_indicator">1/1</string>
+    <string name="voice_record">🎤 Start</string>
+    <string-array name="zoom_modes">
+        <item>🔴 Button + Swipe</item>
+        <item>🟡 Voice Command</item>
+        <item>🟢 Hand Gesture</item>
+        <item>🔵 Face Distance</item>
+    </string-array>
+</resources>
